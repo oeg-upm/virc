@@ -1,6 +1,6 @@
 # Vulnerable Identities Recognition Corpus (VIRC) for Hate Speech Analysis
 
-## Content of the repository
+## Content of the Project
 
 ```
 virc
@@ -19,11 +19,29 @@ virc
 │   │
 │   ├── ita_gold.csv
 │   └── spa_gold.csv
+│  
+├── VIRC.ipynb
 ├── LICENSE
 └── README.md
 ```
 
-- **Data:**
-  - `Spanish:` The Spanish data are split into three sets, *1*, *2* and *disagreement*. Sets *1* and *2* contain data annotated by the two original annotators, while the *disagreement* set contains the news where no agreement was reached and a third annotator was needed.
+## Data
+  - `Spanish:` The Spanish datasets are split into three sets, *1*, *2* and *disagreement*. Sets *1* and *2* contain data annotated by the two original annotators, while the *disagreement* set contains the news where no agreement was reached and a third annotator was needed.
   - `Italian:` The Italian data are divided into two sets (*1* and *2*), annotated by two annotators.
+  - `Disaggregated:` The files containing all the annotations are named according to the following schema *annotations_{language}_{set}.json*.
   - `Gold-standard:` The gold-standard dataset generated through the process explained in the paper correspond to the *ita_gold.csv* and *spa_gold.csv* files.
+
+## Jupyter Notebook
+
+The `VIRC.ipynb` notebook contains all the code for the generation of the gold-standard dataset, calculation of the F-scores, statistics mentioned in the paper and the zero shot experiments.
+
+
+## Contact
+You can contact me through my email adress ibai.guillen@upm.es.
+
+## Acknowledgements
+This work is supported by the Predoctoral Grant (PIPF-2022/COM-25947) of the Consejería de Educación, Ciencia y Universidades de la Comunidad de Madrid, Spain. Arianna Longo's work has been supported by aequa-tech.
+The authors gratefully acknowledge the Universidad Politécnica de Madrid (www.upm.es) for providing computing resources on the IPTC-AI innovation Space AI Supercomputing Cluster.
+
+## License
+This work is licensed under the MIT License. For more details, see the LICENSE file.
