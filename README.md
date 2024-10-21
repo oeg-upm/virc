@@ -4,14 +4,12 @@ Welcome to the Vulnerable Identities Recognition Corpus (VIRC), a dataset create
 ## Overview
 
 VIRC is designed to support the study of hate speech in headlines from two languages: Italian and Spanish. It includes 880 headlines (532 Italian and 348 Spanish), collected and annotated with the following labels:
-- Named Entities: Identifies persons, locations, organizations, groups, etc. mentioned in the headline.
-- Vulnerable Identity Mentions: Labels groups such as women, LGBTQI, ethnic minorities, and migrants targeted by hate speech.
-- Derogatory Mentions: Marks phrases that are derogatory towards vulnerable groups.
-- Dangerous Speech: Highlights parts of the text perceived as potentially inciting hate or perpetuating harmful stereotypes.
-
+- *Named Entities*: Identifies persons, locations, organizations, groups, etc. mentioned in the headline.
+- *Vulnerable Identity* Mentions: Labels groups such as women, LGBTQI, ethnic minorities, and migrants targeted by hate speech.
+- *Derogatory Mentions*: Marks phrases that are derogatory towards vulnerable groups.
+- *Dangerous Speech*: Highlights parts of the text perceived as potentially inciting hate or perpetuating harmful stereotypes.
 
 ## Content of the Project
-
 ```
 virc
 ├── Data
@@ -43,8 +41,15 @@ virc
 
 ## Jupyter Notebook
 
-The `VIRC.ipynb` notebook contains all the code for the generation of the gold-standard dataset, calculation of the F-scores, statistics mentioned in the paper and the zero shot experiments.
+The `VIRC.ipynb` notebook contains all the code for the generation of the gold-standard dataset, calculation of the F-scores, statistics mentioned in the paper and the zero shot experiments. 
 
+For the correct execution of the notebook the following packages are required:
+``` python
+tqdm==4.64.1
+transformers==4.36.2
+torch==2.1.2
+pandas==1.4.4
+```
 
 ## Contact
 You can contact me through my email adress ibai.guillen@upm.es.
