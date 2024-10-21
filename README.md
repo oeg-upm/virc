@@ -5,7 +5,7 @@ Welcome to the Vulnerable Identities Recognition Corpus (VIRC), a dataset create
 
 VIRC is designed to support the study of hate speech in headlines from two languages: Italian and Spanish. It includes 880 headlines (532 Italian and 348 Spanish), collected and annotated with the following labels:
 - *Named Entities*: Identifies persons, locations, organizations, groups, etc. mentioned in the headline.
-- *Vulnerable Identity* Mentions: Labels groups such as women, LGBTQI, ethnic minorities, and migrants targeted by hate speech.
+- *Vulnerable Identity Mentions*: Labels groups such as women, LGBTQI, ethnic minorities, and migrants targeted by hate speech.
 - *Derogatory Mentions*: Marks phrases that are derogatory towards vulnerable groups.
 - *Dangerous Speech*: Highlights parts of the text perceived as potentially inciting hate or perpetuating harmful stereotypes.
 
