@@ -52,7 +52,7 @@ pandas==1.4.4
 ```
 
 ## Contact
-You can contact me through my email adress ibai.guillen@upm.es.
+You can contact us through our email adresses ibai.guillen@upm.es arianna.longo401@edu.unito.it marcoantonio.stranisci@unito.it viviana.patti@unito.it carlos.badenes@upm.es.
 
 ## Acknowledgements
 This work is supported by the Predoctoral Grant (PIPF-2022/COM-25947) of the Consejería de Educación, Ciencia y Universidades de la Comunidad de Madrid, Spain. Arianna Longo's work has been supported by aequa-tech.
