@@ -28,10 +28,14 @@ virc
 │   ├── ita_gold.csv
 │   └── spa_gold.csv
 │  
+├── VIRC_Guidelines.pdf
 ├── VIRC.ipynb
 ├── LICENSE
 └── README.md
 ```
+
+## Annotation
+The `VIRC_Guidelines.pdf` contains the annotation guidelines provided to annotators. This can be seen sintetized in the paper.
 
 ## Data
   - `Spanish:` The Spanish datasets are split into three sets, *1*, *2* and *disagreement*. Sets *1* and *2* contain data annotated by the two original annotators, while the *disagreement* set contains the news where no agreement was reached and a third annotator was needed.
