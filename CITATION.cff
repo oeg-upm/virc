@@ -33,11 +33,11 @@ authors:
       - "Computer Science Department, Universidad Poltécnica de Madrid, Spain"
     email: "carlos.badenes@upm.es"
     website: "https://about.me/cbadenes"
-  editors:
-  - name: "Felice Dell'Orletta"
-  - name: "Alessandro Lenci"
-  - name: "Simonetta Montemagni"
-  - name: "Rachele Sprugnoli"
+editors:
+- name: "Felice Dell'Orletta"
+- name: "Alessandro Lenci"
+- name: "Simonetta Montemagni"
+- name: "Rachele Sprugnoli"
 date-released: 2024-12-04
 conference:
   name: "Tenth Italian Conference on Computational Linguistics (CLiC-it 2024)"
