@@ -43,6 +43,9 @@ The `VIRC_Guidelines.pdf` contains the annotation guidelines provided to annotat
   - `Disaggregated:` The files containing all the annotations are named according to the following schema *annotations_{language}_{set}.json*.
   - `Gold-standard:` The gold-standard dataset generated through the process explained in the paper correspond to the *ita_gold.csv* and *spa_gold.csv* files.
 
+## Usage
+The dataset has been uploaded to Hugging Face. The dataset itself and the documentation can be found in the following repo [https://huggingface.co/datasets/oeg/virc](https://huggingface.co/datasets/oeg/virc).
+
 ## Jupyter Notebook
 
 The `VIRC.ipynb` notebook contains all the code for the generation of the gold-standard dataset, calculation of the F-scores, statistics mentioned in the paper and the zero shot experiments. 
