@@ -8,6 +8,7 @@ authors:
     affiliation: "Ontology Engineering Group, Universidad Politécnica de Madrid, Spain"
     email: "ibai.guillen@upm.es"
     website: "https://iguillenp.github.io/"
+url: "https://github.com/oeg-upm/virc"
 preferred-citation:
   type: article
   title: "The Vulnerable Identities Recognition Corpus (VIRC) for Hate Speech Analysis"
