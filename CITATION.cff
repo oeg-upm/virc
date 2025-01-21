@@ -35,18 +35,18 @@ preferred-citation:
         - "Computer Science Department, Universidad Poltécnica de Madrid, Spain"
       email: "carlos.badenes@upm.es"
       website: "https://about.me/cbadenes"
-editors:
-- name: "Felice Dell'Orletta"
-- name: "Alessandro Lenci"
-- name: "Simonetta Montemagni"
-- name: "Rachele Sprugnoli"
-date-released: 2024-12-04
-conference:
-  name: "Tenth Italian Conference on Computational Linguistics (CLiC-it 2024)"
-  location: "Pisa, Italy"
-  date-start: "2024-12-04"
-  date-end: "2024-12-06"
-publisher: "CEUR-WS.org"
-volume: "3878"
-series: "CEUR Workshop Proceedings"
-url: "https://ceur-ws.org/Vol-3878/49_main_long.pdf"
+  editors:
+  - name: "Felice Dell'Orletta"
+  - name: "Alessandro Lenci"
+  - name: "Simonetta Montemagni"
+  - name: "Rachele Sprugnoli"
+  date-released: 2024-12-04
+  conference:
+    name: "Tenth Italian Conference on Computational Linguistics (CLiC-it 2024)"
+    location: "Pisa, Italy"
+    date-start: "2024-12-04"
+    date-end: "2024-12-06"
+  publisher: "CEUR-WS.org"
+  volume: "3878"
+  series: "CEUR Workshop Proceedings"
+  url: "https://ceur-ws.org/Vol-3878/49_main_long.pdf"
