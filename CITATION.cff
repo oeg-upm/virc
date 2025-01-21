@@ -1,39 +1,40 @@
 cff-version: 1.2.0
 message: "If you use this work, please cite it using the following metadata."
-type: article
 title: "The Vulnerable Identities Recognition Corpus (VIRC) for Hate Speech Analysis"
-authors:
-  - name: "Ibai Guillén-Pacho"
-    alias: "I. Guillén-Pacho"
-    orcid: "https://orcid.org/0000-0001-7801-8815"
-    affiliation: "Ontology Engineering Group, Universidad Politécnica de Madrid, Spain"
-    email: "ibai.guillen@upm.es"
-    website: "https://iguillenp.github.io/"
-  - name: "Arianna Longo"
-    orcid: "https://orcid.org/0009-0005-8500-1946"
-    affiliation: 
-      - "University of Turin, Italy"
-      - "Aequa-tech, Torino, Italy (aequa-tech.com)"
-    email: "arianna.longo401@edu.unito.it"
-  - name: "Marco Antonio Stranisci"
-    orcid: "https://orcid.org/0000-0001-9337-7250"
-    affiliation: 
-      - "University of Turin, Italy"
-      - "Aequa-tech, Torino, Italy (aequa-tech.com)"
-    email: "marcoantonio.stranisci@unito.it"
-    website: "https://marcostranisci.github.io/"
-  - name: "Viviana Patti"
-    orcid: "https://orcid.org/0000-0001-5991-370X"
-    affiliation: "University of Turin, Italy"
-    email: "viviana.patti@unito.it"
-    website: "https://www.unito.it/persone/vpatti"
-  - name: "Carlos Badenes-Olmedo"
-    orcid: "https://orcid.org/0000-0002-2753-9917"
-    affiliation: 
-      - "Ontology Engineering Group, Universidad Politécnica de Madrid, Spain"
-      - "Computer Science Department, Universidad Poltécnica de Madrid, Spain"
-    email: "carlos.badenes@upm.es"
-    website: "https://about.me/cbadenes"
+preferred-citation:
+  type: article
+  authors:
+    - name: "Ibai Guillén-Pacho"
+      alias: "I. Guillén-Pacho"
+      orcid: "https://orcid.org/0000-0001-7801-8815"
+      affiliation: "Ontology Engineering Group, Universidad Politécnica de Madrid, Spain"
+      email: "ibai.guillen@upm.es"
+      website: "https://iguillenp.github.io/"
+    - name: "Arianna Longo"
+      orcid: "https://orcid.org/0009-0005-8500-1946"
+      affiliation: 
+        - "University of Turin, Italy"
+        - "Aequa-tech, Torino, Italy (aequa-tech.com)"
+      email: "arianna.longo401@edu.unito.it"
+    - name: "Marco Antonio Stranisci"
+      orcid: "https://orcid.org/0000-0001-9337-7250"
+      affiliation: 
+        - "University of Turin, Italy"
+        - "Aequa-tech, Torino, Italy (aequa-tech.com)"
+      email: "marcoantonio.stranisci@unito.it"
+      website: "https://marcostranisci.github.io/"
+    - name: "Viviana Patti"
+      orcid: "https://orcid.org/0000-0001-5991-370X"
+      affiliation: "University of Turin, Italy"
+      email: "viviana.patti@unito.it"
+      website: "https://www.unito.it/persone/vpatti"
+    - name: "Carlos Badenes-Olmedo"
+      orcid: "https://orcid.org/0000-0002-2753-9917"
+      affiliation: 
+        - "Ontology Engineering Group, Universidad Politécnica de Madrid, Spain"
+        - "Computer Science Department, Universidad Poltécnica de Madrid, Spain"
+      email: "carlos.badenes@upm.es"
+      website: "https://about.me/cbadenes"
 editors:
 - name: "Felice Dell'Orletta"
 - name: "Alessandro Lenci"
