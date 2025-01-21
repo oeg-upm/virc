@@ -1,1 +1,3 @@
 The dataset is available at https://huggingface.co/datasets/oeg/virc
+
+If you need the files for executing the notebook, please, contact paper authors for the dataset.
