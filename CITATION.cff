@@ -1,6 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this work, please cite it using the following metadata."
 title: "The Vulnerable Identities Recognition Corpus (VIRC) for Hate Speech Analysis"
+type: "article"
 authors:
   - name: "Ibai Guillén-Pacho"
     alias: "I. Guillén-Pacho"
