@@ -13,20 +13,7 @@ VIRC is designed to support the study of hate speech in headlines from two langu
 ```
 virc
 ├── Data
-│   ├── annotations_italian_1.json
-│   ├── annotations_italian_2.json
-│   ├── corpus_italian_1.csv
-│   ├── corpus_italian_2.csv
-│   │ 
-│   ├── annotations_spanish_1.json
-│   ├── annotations_spanish_2.json
-│   ├── annotations_spanish_disagreement.json
-│   ├── corpus_spanish_1.csv
-│   ├── corpus_spanish_2.csv
-│   ├── corpus_spanish_disagreement.csv
-│   │
-│   ├── ita_gold.csv
-│   └── spa_gold.csv
+│   └── data_availability.txt
 │  
 ├── VIRC_Guidelines.pdf
 ├── VIRC.ipynb
@@ -38,10 +25,8 @@ virc
 The `VIRC_Guidelines.pdf` contains the annotation guidelines provided to annotators. This can be seen sintetized in the paper.
 
 ## Data
-  - `Spanish:` The Spanish datasets are split into three sets, *1*, *2* and *disagreement*. Sets *1* and *2* contain data annotated by the two original annotators, while the *disagreement* set contains the news where no agreement was reached and a third annotator was needed.
-  - `Italian:` The Italian data are divided into two sets (*1* and *2*), annotated by two annotators.
-  - `Disaggregated:` The files containing all the annotations are named according to the following schema *annotations_{language}_{set}.json*.
-  - `Gold-standard:` The gold-standard dataset generated through the process explained in the paper correspond to the *ita_gold.csv* and *spa_gold.csv* files.
+- *Spanish*: The Spanish datasets are split into two sets, agreement and disagreement. Agreement set contains the data annotated by the two original annotators, while the disagreement set contains the news where no agreement was reached and a third annotator was needed
+- *Italian*: The Italian data consists of only one set annotated by two annotators.
 
 ## Usage
 The dataset has been uploaded to Hugging Face. The dataset itself and the documentation can be found in the following repo [https://huggingface.co/datasets/oeg/virc](https://huggingface.co/datasets/oeg/virc).
