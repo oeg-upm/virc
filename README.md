@@ -13,11 +13,25 @@ VIRC is designed to support the study of hate speech in headlines from two langu
 ```
 virc
 ├── Data
-│   └── data_availability.txt
+│   ├── annotations_italian_1.json
+│   ├── annotations_italian_2.json
+│   ├── corpus_italian_1.csv
+│   ├── corpus_italian_2.csv
+│   │ 
+│   ├── annotations_spanish_1.json
+│   ├── annotations_spanish_2.json
+│   ├── annotations_spanish_disagreement.json
+│   ├── corpus_spanish_1.csv
+│   ├── corpus_spanish_2.csv
+│   ├── corpus_spanish_disagreement.csv
+│   │
+│   ├── ita_gold.csv
+│   └── spa_gold.csv
 │  
 ├── VIRC_Guidelines.pdf
 ├── VIRC.ipynb
 ├── LICENSE
+├── CITATION.cff
 └── README.md
 ```
 
@@ -29,13 +43,29 @@ The `VIRC_Guidelines.pdf` contains the annotation guidelines provided to annotat
 - *Italian*: The Italian data consists of only one set annotated by two annotators.
 
 ## Usage
-The dataset has been uploaded to Hugging Face. The dataset itself and the documentation can be found in the following repo [https://huggingface.co/datasets/oeg/virc](https://huggingface.co/datasets/oeg/virc).
+The dataset has been uploaded to Hugging Face. You can access the dataset and its documentation at the following repository: [https://huggingface.co/datasets/oeg/virc](https://huggingface.co/datasets/oeg/virc).
 
 ## Jupyter Notebook
 
 The `VIRC.ipynb` notebook contains all the code for the generation of the gold-standard dataset, calculation of the F-scores, statistics mentioned in the paper and the zero shot experiments. 
 
-For the correct execution of the notebook the following packages are required:
+### Required Files
+To ensure the notebook runs correctly, the following files are required. Please reach out to the authors to obtain them:
+- `annotations_italian_1.json`
+- `annotations_italian_2.json`
+- `corpus_italian_1.csv`
+- `corpus_italian_2.csv`
+- `annotations_spanish_1.json`
+- `annotations_spanish_2.json`
+- `annotations_spanish_disagreement.json`
+- `corpus_spanish_1.csv`
+- `corpus_spanish_2.csv`
+- `corpus_spanish_disagreement.csv`
+- `ita_gold.csv`
+- `spa_gold.csv`
+
+### Python Requirements
+Ensure the following Python packages are installed:
 ``` python
 tqdm==4.64.1
 transformers==4.36.2
