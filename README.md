@@ -54,6 +54,31 @@ transformers==4.36.2
 torch==2.1.2
 pandas==1.4.4
 ```
+## Cite
+``` bibtex
+
+
+@inproceedings{IbaiArianna2024,
+  author       = {Ibai Guill{\'{e}}n{-}Pacho and
+                  Arianna Longo and
+                  Marco Antonio Stranisci and
+                  Viviana Patti and
+                  Carlos Badenes{-}Olmedo},
+  editor       = {Felice Dell'Orletta and
+                  Alessandro Lenci and
+                  Simonetta Montemagni and
+                  Rachele Sprugnoli},
+  title        = {The Vulnerable Identities Recognition Corpus {(VIRC)} for Hate Speech
+                  Analysis},
+  booktitle    = {Proceedings of the Tenth Italian Conference on Computational Linguistics
+                  (CLiC-it 2024), Pisa, Italy, December 4-6, 2024},
+  series       = {{CEUR} Workshop Proceedings},
+  volume       = {3878},
+  publisher    = {CEUR-WS.org},
+  year         = {2024},
+  url          = {https://ceur-ws.org/Vol-3878/49_main_long.pdf},
+}
+```
 
 ## Contact
 You can contact us through our email adresses:
