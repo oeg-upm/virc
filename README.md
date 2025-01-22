@@ -72,10 +72,8 @@ transformers==4.36.2
 torch==2.1.2
 pandas==1.4.4
 ```
-## Cite
+## BibTeX Entry and Citation Info
 ``` bibtex
-
-
 @inproceedings{IbaiArianna2024,
   author       = {Ibai Guill{\'{e}}n{-}Pacho and
                   Arianna Longo and
