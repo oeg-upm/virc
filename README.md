@@ -74,25 +74,26 @@ pandas==1.4.4
 ```
 ## BibTeX Entry and Citation Info
 ``` bibtex
-@inproceedings{IbaiArianna2024,
-  author       = {Ibai Guill{\'{e}}n{-}Pacho and
-                  Arianna Longo and
-                  Marco Antonio Stranisci and
-                  Viviana Patti and
-                  Carlos Badenes{-}Olmedo},
-  editor       = {Felice Dell'Orletta and
-                  Alessandro Lenci and
-                  Simonetta Montemagni and
-                  Rachele Sprugnoli},
-  title        = {The Vulnerable Identities Recognition Corpus {(VIRC)} for Hate Speech
-                  Analysis},
-  booktitle    = {Proceedings of the Tenth Italian Conference on Computational Linguistics
-                  (CLiC-it 2024), Pisa, Italy, December 4-6, 2024},
-  series       = {{CEUR} Workshop Proceedings},
-  volume       = {3878},
-  publisher    = {CEUR-WS.org},
-  year         = {2024},
-  url          = {https://ceur-ws.org/Vol-3878/49_main_long.pdf},
+@inproceedings{guillen-pacho-etal-2024-vulnerable,
+    title = "The Vulnerable Identities Recognition Corpus ({VIRC}) for Hate Speech Analysis",
+    author = "Guill{\'e}n-Pacho, Ibai  and
+      Longo, Arianna  and
+      Stranisci, Marco Antonio  and
+      Patti, Viviana  and
+      Badenes-Olmedo, Carlos",
+    editor = "Dell'Orletta, Felice  and
+      Lenci, Alessandro  and
+      Montemagni, Simonetta  and
+      Sprugnoli, Rachele",
+    booktitle = "Proceedings of the 10th Italian Conference on Computational Linguistics (CLiC-it 2024)",
+    month = dec,
+    year = "2024",
+    address = "Pisa, Italy",
+    publisher = "CEUR Workshop Proceedings",
+    url = "https://aclanthology.org/2024.clicit-1.50/",
+    pages = "417--424",
+    ISBN = "979-12-210-7060-6",
+    abstract = "This paper presents the Vulnerable Identities Recognition Corpus (VIRC), a novel resource designed to enhance hate speech analysis in Italian and Spanish news headlines. VIRC comprises 921 headlines, manually annotated for vulnerable identities, dangerous discourse, derogatory expressions, and entities. Our experiments reveal that large language models (LLMs) struggle significantly with the fine-grained identification of these elements, underscoring the complexity of detecting hate speech. VIRC stands out as the first resource of its kind in these languages, offering a richer annotation schema compared to existing corpora. The insights derived from VIRC can inform the development of sophisticated detection tools and the creation of policies and regulations to combat hate speech on social media, promoting a safer online environment. Future work will focus on expanding the corpus and refining annotation guidelines to further enhance its comprehensiveness and reliability."
 }
 ```
 
